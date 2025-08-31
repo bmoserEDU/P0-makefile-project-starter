@@ -21,5 +21,6 @@ int main(void)
     } else {
         printf("Failed to create greeting.\n");
     }
+
     return 0;
 }

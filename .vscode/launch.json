@@ -15,7 +15,8 @@
                 "MIMode": "lldb"
             },
             "linux": {
-                "MIMode": "gdb"
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb"
             },
             "setupCommands": [
                 {
@@ -44,7 +45,8 @@
                 "MIMode": "lldb"
             },
             "linux": {
-                "MIMode": "gdb"
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb"
             },
             "setupCommands": [
                 {

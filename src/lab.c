@@ -10,6 +10,14 @@ int subtract(int a, int b) {
     return a - b;
 }
 
+int multiply(int a, int b) {
+    return a * b;
+}
+
+int badSum(int a, int b) {
+    return a + b + 5; // Intentionally faulty implementation
+}
+
 char *get_greeting(const char *restrict name)
 {
   if (name == NULL)
